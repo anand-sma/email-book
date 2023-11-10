@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body background="#333">
+    <!-- HEADER -->
+    <header>
+      <nav class="navbar">
+        <!-- <div class="logo">logo L</div> -->
+        <img src="./assets/logo.png" alt="" />
+        <div class="navbar-ul">
+          <ul>
+            <li class="li_item_1">Home</li>
+            <li class="li_item_2">Services</li>
+            <li class="li_item_3">Pricing</li>
+            <li class="li_item_4">About</li>
+            <li class="li_item_5">Contact</li>
+            <li class="li_item_6">Feedback</li>
+          </ul>
+        </div>
+        <div class="btn_group">
+          <button>Sign Up</button>
+          <button>Login</button>
+        </div>
+        <div class="ham-menu">
+          <button class="ham">---</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="form-control">
+        <form class="frm">
+          <div class="name">
+            <label for="names">NAME</label> <br />
+            <input type="text" id="name" placeholder="your name" />
+          </div>
+          <div class="email">
+            <label for="email">eMAIL</label><br />
+            <input type="email" id="email" placeholder="abc@example.com" />
+          </div>
+          <div class="detail">
+            <label for="detail">DETAIL</label><br />
+            <textarea name="" id="details" cols="30" rows="10"></textarea>
+          </div>
+          <div class="add">
+            <button class="btn addDetails" id="btnAddDetails">
+              Add Details
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="displayRecord form-control">
+        <h4 class="dispName"></h4>
+        <hr />
+        <div class="displayBody">
+          <h5 class="dispEmail"></h5>
+          <p class="dispDetails"></p>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
